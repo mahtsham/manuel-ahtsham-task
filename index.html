@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      @media screen and (min-width: 480px) {
+        body {
+          background-color: lightgreen;
+        }
+
+        
+      }
+
+      #welcome-section
+      {
+        height:100vh;
+      }
+
+      #navbar {
+        position: fixed;
+        top : 0;
+      }
+
+    </style>
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
     <section id="welcome-section">
-<h1>Welcome</h1>
+      <h1 class="welcome">Welcome</h1>
 
     </section>
     <section id="projects" >
@@ -20,8 +40,16 @@
     </section>
 
   <nav id="navbar">
-
+      <a href="#section2">about me</a>
+      
+    
+      <a href="https://github.com/" target="_blank" id="profile-link">my profile</a>
+    
   </nav>
     <script  src="js/index.js"></script>
+
+    <section id="section2">
+
+    </section>
   </body>
 </html>
